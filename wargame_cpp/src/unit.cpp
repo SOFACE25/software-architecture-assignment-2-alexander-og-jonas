@@ -13,5 +13,6 @@ void Unit::set_health(int health)
 }
 void Unit::take_hit(int damage)
 {
-    set_health(get_health() - damage);
+    int new_health = get_health() - damage;
+    set_health(new_health < 0 ? 0 : new_health); 
 }
