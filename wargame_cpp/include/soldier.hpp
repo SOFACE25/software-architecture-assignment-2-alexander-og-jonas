@@ -1,6 +1,9 @@
 #ifndef SOLDIER_HPP
 #define SOLDIER_HPP
 #include "unit.hpp"
+#include <iostream>
+
+using namespace std;
 
 class Soldier : public Unit
 {

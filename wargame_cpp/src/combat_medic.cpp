@@ -15,6 +15,6 @@ void CombatMedic::heal(Unit &target)
     else
     {
         std::cout << "Hang in there!" << std::endl;
-        target.set_health(target.get_healt()+10);
+        target.set_health(target.get_health()+10);
     }
 }

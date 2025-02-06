@@ -2,6 +2,7 @@
 #define COMBAT_MEDIC_HPP
 
 #include "soldier.hpp"
+#include <iostream>
 
 class CombatMedic : public Soldier
 {
